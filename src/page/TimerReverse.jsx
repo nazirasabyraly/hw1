@@ -73,7 +73,7 @@ function TimerReverse( { onNameSubmit } ) {
                 </label>
                 <button type="submit">Send</button>
             </form>
-
+            <h1>Timer for 10 sec</h1>
             <h1>{name}, осталось {seconds} секунд</h1>
 
             {finished && (

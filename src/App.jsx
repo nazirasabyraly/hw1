@@ -5,7 +5,8 @@ import Home from './page/Home'
 import {Routes, Route} from 'react-router'
 import './App.css'
 import Props from './page/Props'
-import Timer, { TimerReverse } from './page/Timer'
+import Timer from './page/Timer'
+import TimerReverse from './page/TimerReverse'
 
 function App() {
 
