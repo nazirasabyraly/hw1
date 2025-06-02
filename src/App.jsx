@@ -12,10 +12,9 @@ function App() {
 
   return (
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<TimerReverse/>}></Route>
         <Route path="/props" element={<Props/>}></Route>
         <Route path="/timer" element={<Timer/>}></Route>
-        <Route path="/timerrev" element={<TimerReverse/>}></Route>
       </Routes>
   )
 }
