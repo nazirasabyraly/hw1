@@ -81,7 +81,7 @@ function TimerReverse( { onNameSubmit } ) {
             )}
 
 
-            <button onClick={handleStart}>Start</button>
+            <button onClick={handleStart} disabled={isRunning}>Start</button>
             <button onClick={handleStop}>Stop</button>
             <button onClick={handleReset}>Попробовать ещё раз</button>
         </div>
